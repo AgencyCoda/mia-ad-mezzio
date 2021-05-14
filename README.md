@@ -11,4 +11,5 @@ $app->route('/mia-ad/fetch-slug/{slug}', [\Mia\Ad\Handler\FetchSlugHandler::clas
 $app->route('/mia-ad/list', [\Mia\Ad\Handler\ListHandler::class], ['POST', 'OPTIONS', 'HEAD'], 'mia_ad.list');
 $app->route('/mia-ad/remove/{id}', [\Mia\Auth\Handler\AuthHandler::class, new \Mia\Auth\Middleware\MiaRoleAuthMiddleware([MIAUser::ROLE_ADMIN]), \Mia\Ad\Handler\RemoveHandler::class], ['GET', 'DELETE', 'OPTIONS', 'HEAD'], 'mia_ad.remove');
 $app->route('/mia-ad/save', [\Mia\Auth\Handler\AuthHandler::class, new \Mia\Auth\Middleware\MiaRoleAuthMiddleware([MIAUser::ROLE_ADMIN]), \Mia\Ad\Handler\SaveHandler::class], ['POST', 'OPTIONS', 'HEAD'], 'mia_ad.save');
+$app->route('/mia-ad/list-sections', [\Mia\Ad\Handler\ListSectionsHandler::class], ['POST', 'OPTIONS', 'HEAD'], 'mia_ad.list-sections');
 ```
