@@ -8,7 +8,7 @@ use Mia\Ad\Repository\MIAAdRepository;
  * Description of ListHandler
  * 
  * @OA\Post(
- *     path="/mia_ad/list",
+ *     path="/mia-ad/list",
  *     summary="MiaAd List",
  *     tags={"MiaAd"},
  *     @OA\RequestBody(

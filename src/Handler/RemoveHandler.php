@@ -8,7 +8,7 @@ use Mia\Ad\Model\MIAAd;
  * Description of RemoveHandler
  * 
  * @OA\Get(
- *     path="/mia_ad/remove/{id}",
+ *     path="/mia-ad/remove/{id}",
  *     summary="MiaAd Revove",
  *     tags={"MiaAd"},
  *     @OA\Parameter(

@@ -8,7 +8,7 @@ use Mia\Ad\Model\MIAAd;
  * Description of SaveHandler
  * 
  * @OA\Post(
- *     path="/mia_ad/save",
+ *     path="/mia-ad/save",
  *     summary="MiaAd Save",
  *     tags={"MiaAd"},
 *      @OA\RequestBody(
