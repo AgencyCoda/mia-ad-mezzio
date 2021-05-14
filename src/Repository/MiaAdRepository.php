@@ -10,7 +10,7 @@ use Mia\Ad\Model\MIAAd;
  *
  * @author matiascamiletti
  */
-class MiaAdRepository 
+class MIAAdRepository 
 {
     /**
      * 

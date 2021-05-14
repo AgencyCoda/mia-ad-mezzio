@@ -13,7 +13,7 @@ export class MiaAdService extends MiaBaseCrudHttpService<MiaAd> {
     protected http: HttpClient
   ) {
     super(http);
-    this.basePathUrl = environment.baseUrl + 'mia_ad';
+    this.basePathUrl = environment.baseUrl + 'mia-ad';
   }
  
 }
