@@ -13,7 +13,7 @@ export class MiaAdSectionService extends MiaBaseCrudHttpService<MiaAdSection> {
     protected http: HttpClient
   ) {
     super(http);
-    this.basePathUrl = environment.baseUrl + 'mia_ad_section';
+    this.basePathUrl = environment.baseUrl + 'mia-ad/section';
   }
  
 }
